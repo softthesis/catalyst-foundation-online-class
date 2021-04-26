@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <style>
+        * {}
+
+        ul#nav {
+            background-color: #282a35;
+            border-radius: 5px;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul#nav>li {
+            list-style: none;
+            display: inline-block;
+
+        }
+
+        ul#nav>li>a {
+            text-decoration: none;
+            color: #f1f1f1;
+            padding: 10px 15px;
+            display: block;
+            font-family: 'Original Surfer', cursive;
+        }
+
+        ul#nav>li>a:hover,
+        ul#nav>li.active>a {
+            background-color: red;
+            border-radius: 0px;
+        }
+
+        ul#nav>li:first-child>a:hover {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        ul#nav>li:last-child>a:hover {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li class="active"><a href="">Portfolio</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+
+    <h3>Amar Bazar List</h3>
+    <ul>
+        <li>Banana</li>
+        <li>Egg</li>
+        <li>Milk</li>
+        <li>Papaya</li>
+    </ul>
+</body>
+
+</html>

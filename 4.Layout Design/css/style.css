@@ -1,0 +1,100 @@
+/*** reset code ***/
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1170px;
+    clear:both;
+}
+.clear{
+    clear:both;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+    outline: none;
+    color:inherit;
+}
+
+.overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    opacity:0.6;
+    z-index: -1;
+    left:0;
+    top:0;
+}
+/** custom style **/
+.hero_area{
+    background: lightcoral url('img/hero_bg.jpg') no-repeat scroll center center;
+    background-size: cover;
+    position: relative;
+    z-index: 999;
+}
+.navbar{
+    border-bottom: 1px solid #fff;
+}
+.nav_left{
+    float:left;
+    width:50%;
+}
+.nav_right{
+    float:right;
+    width:50%;
+}
+.logo > a{
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+ul.nav{
+    float:right;
+}
+ul.nav > li{
+    list-style: none;
+    display: inline-block;
+}
+ul.nav > li > a{
+    font-size:18px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    display: block;
+    color:#FFF;
+}
+/* Hero */
+.hero_content{
+    padding: 130px 320px 130px 0px;
+}
+.hero_title{
+    font-size: 50px;
+}
+.hero_content > p{
+    font-size: 20px;
+}
+.hero_btn{
+    margin-top: 36px;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+
+/***  Color style ***/
+.orange_txt{
+    color:#ff6700;
+}
+.orange_bg{
+    background-color: #ff6700;
+}
+.gray_txt{
+    color:#505763;
+}
+.gray_bg{
+    background-color:#505763;
+}
+.white_txt{
+    color:#fefcff;
+}

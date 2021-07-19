@@ -1,0 +1,26 @@
+#header{
+    background-color: cadetblue;
+    height: 100px;
+}
+#contenct_section{
+    height: 450px;
+}
+#sidebar{
+    background-color: rebeccapurple;
+    width: 30%;
+    float: left;
+    height: inherit;
+}
+#content{
+    background-color: burlywood;
+    width: 70%;
+    float: right;
+    height: inherit;
+}
+#footer{
+    background-color: cadetblue;
+    height: 100px;
+}
+.clear{
+    clear: both;
+}

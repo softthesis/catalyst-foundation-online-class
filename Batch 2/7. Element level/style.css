@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+ul#nav{
+    background-color: #282a35;
+}
+ul#nav > li{
+    display: inline-block;
+    position: relative;
+}
+ul#nav > li a.active{
+    background-color: #04aa6d;
+}
+ul#nav > li > a{
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 10px;
+}
+ul#nav > li >a:hover{
+    background-color: black;
+}
+ul#nav > li:hover ul{
+    display: block;
+}
+ul#nav li ul{
+    position: absolute;
+    left: 0;
+    top: 51px;
+    width: 140px;
+    background-color: lightblue;
+    list-style: none;
+    display: none;
+}
+ul#nav li ul li{
+    border-bottom: 1px solid #282a35;
+}
+ul#nav li ul li:last-child{
+    border-bottom: 0px solid #282a35;
+}
+ul#nav li ul li a{
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+}
+ul#nav li ul li a:hover{
+    background-color:#282a35;
+    color:#FFF;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <div class="main_section" id="main">
+        <div class="form_section">
+            <form action="" method="post" class="form">
+                <h2 class="form_title">Sign Up</h2>
+                <input type="text" name="" class="input" id="" placeholder="Enter your name">
+                <input type="email" name="" class="input" id="" placeholder="Enter your email">
+                <input type="text" name="" class="input" id="" placeholder="Enter your Mobile Number">
+                <input type="password" name="" class="input" id="" placeholder="Enter Password">
+                <button type="submit" name="" class="input_btn" id=""><i class="fas fa-home icon"></i>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function resize() {
+            var heights = window.innerHeight;
+            document.getElementById("main").style.height = heights + "px";
+        }
+        resize();
+        window.onresize = function () {
+            resize();
+        };
+    </script>
+</body>
+
+</html>
